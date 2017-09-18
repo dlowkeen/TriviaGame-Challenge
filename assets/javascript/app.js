@@ -1,4 +1,3 @@
-// Array of variables
 var produce = [
 	{	name: "Avocados",
 		image: "<img src='assets/images/avocados.jpg'>",
@@ -8,37 +7,136 @@ var produce = [
 		}, 
 	{	name: "Celery",
 		image: "<img src='assets/images/Celery.jpg'>",
-		answerOptions: ["19", "22", "4", "16"],
-		hint: "Drive a car at this age",
-		answer: "16"
+		answerOptions: ["19", "22", "4", "66"],
+		hint: "Turn the 'e's upside down",
+		answer: "66"
 		}, 
 	{	name: "Roma Tomatoes",
 		image: "<img src='assets/images/romas.jpg'>",
-		answerOptions: ["5", "45", "54", "55"],
-		hint: "Count your fingers on one hand",
-		answer: "5"
+		answerOptions: ["7", "45", "54", "55"],
+		hint: "Cut the 'T' in half",
+		answer: "7"
+		},
+	{	name: "Acorn Squash",
+		image: "<img src='assets/images/acorn-squash.jpg'>",
+		answerOptions: ["5", "45", "14", "55"],
+		hint: "Valentine's Day",
+		answer: "14"
+		},
+	{	name: "Cantaloupe",
+		image: "<img src='assets/images/cantaloupe.png'>",
+		answerOptions: ["4", "69", "12", "36"],
+		hint: "hint5",
+		answer: "69"
+		},
+	{	name: "Beefsteak Tomatoes",
+		image: "<img src='assets/images/beefsteak-tomato.jpg'>",
+		answerOptions: ["5", "31", "73", "77"],
+		hint: "hint4",
+		answer: "73"
+		},
+	{	name: "Strawberries",
+		image: "<img src='assets/images/Strawberry.jpg'>",
+		answerOptions: ["2", "1", "3", "4"],
+		hint: "hint4",
+		answer: "2"
+		},
+	{	name: "Seedless Cucumbers",
+		image: "<img src='assets/images/seedlesscucumber.jpg'>",
+		answerOptions: ["4", "87", "78", "90"],
+		hint: "hint4",
+		answer: "87"
+		},
+	{	name: "Bananas",
+		image: "<img src='assets/images/bananas.jpg'>",
+		answerOptions: ["2", "4", "3", "7"],
+		hint: "hint4",
+		answer: "3"
+		},
+	{	name: "Cucumbers",
+		image: "<img src='assets/images/cucumbers.jpg'>",
+		answerOptions: ["9", "44", "4", "8"],
+		hint: "hint4",
+		answer: "4"
+		},
+	{	name: "Limes",
+		image: "<img src='assets/images/limes.jpg'>",
+		answerOptions: ["8", "49", "21", "9"],
+		hint: "hint4",
+		answer: "8"
+		},
+	{	name: "Mangoes",
+		image: "<img src='assets/images/mango.jpg'>",
+		answerOptions: ["17", "89", "9", "5"],
+		hint: "hint4",
+		answer: "9"
+		},
+	{	name: "Green Peppers",
+		image: "<img src='assets/images/green-pepper.jpg'>",
+		answerOptions: ["10", "12", "11", "51"],
+		hint: "hint4",
+		answer: "10"
 		},
 	{	name: "Iceberg Lettuce",
-		image: "",
-		answerOptions: ["5", "45", "54", "55"],
-		hint: "Count your fingers on one hand",
-		answer: "5"
+		image: "<img src='assets/images/iceberg-lettuce.jpg'>",
+		answerOptions: ["12", "31", "13", "33"],
+		hint: "hint4",
+		answer: "13"
 		},
-	{	name: "Russet Potatoes",
-		image: "",
-		answerOptions: ["5", "45", "54", "55"],
-		hint: "Count your fingers on one hand",
-		answer: "5"
+	{	name: "Pineapples",
+		image: "<img src='assets/images/pineapple.jpg'>",
+		answerOptions: ["18", "81", "11", "88"],
+		hint: "hint4",
+		answer: "18"
+		},
+	{	name: "Organic Bananas",
+		image: "<img src='assets/images/organic-bananas.jpg'>",
+		answerOptions: ["33", "41", "116", "22"],
+		hint: "hint4",
+		answer: "22"
+		},
+	{	name: "Zucchini",
+		image: "<img src='assets/images/zucchini.jpg'>",
+		answerOptions: ["143", "101", "127", "107"],
+		hint: "hint4",
+		answer: "127"
+		},
+	{	name: "Tomatillos",
+		image: "<img src='assets/images/tomatillos.jpg'>",
+		answerOptions: ["72", "96", "27", "22"],
+		hint: "hint4",
+		answer: "72"
+		},
+	{	name: "Vine Tomatoes",
+		image: "<img src='assets/images/vine-tomatoes.jpg'>",
+		answerOptions: ["5", "6", "7", "16"],
+		hint: "hint4",
+		answer: "6"
+		},
+	{	name: "Honeydew Melons",
+		image: "<img src='assets/images/honeydew.jpg'>",
+		answerOptions: ["18", "8", "9", "88"],
+		hint: "hint4",
+		answer: "88"
+		},
+	{	name: "Grape Fruit",
+		image: "<img src='assets/images/grapefruit.jpg'>",
+		answerOptions: ["142", "138", "134", "101"],
+		hint: "hint4",
+		answer: "134"
+		},
+	{	name: "Yellow Squash",
+		image: "<img src='assets/images/yellow-squash.jpg'>",
+		answerOptions: ["130", "167", "14", "130"],
+		hint: "hint4",
+		answer: "130"
 		}
 ];
 
-var produceArray = ["Avocados", "Celery", "Roma Tomatoes", "Iceberg Lettuce", "Russet Potatoes"];
-var imageArray = ["<img src='assets/images/avocados.jpg'>", "<img src='assets/images/Celery.jpg'>", "<img src='assets/images/romas.jpg'>"];
-var answerArray = [["13", "2", "1", "3"], ["19", "22", "4", "16"], ["19", "22", "4", "16"], ["5", "45", "54", "55"], ["5", "45", "54", "55"]];
+var correct = 0;
+var incorrect = 0;
 var questionCounter = 0;
 	
-
-
 
 	$("#main").hide();
 	$("#hint-display").hide();
@@ -59,27 +157,36 @@ var questionCounter = 0;
 		$("#answer3").html(produce[questionCounter].answerOptions[2]);
 		$("#answer4").html(produce[questionCounter].answerOptions[3]);
 		$("#hint-display").html(produce[questionCounter].hint);
+
+	}
+
+	function finalPage() {
+		$("#main").html("Finished");
 	}
 
 // When answer is clicked, move on to next question
-$("body").on("click", ".answer", function(event){
-	//answeredQuestion = true;
+$(".answer").on("click", function(event){
+
+	var selectedAnswer = $(this).text();
+
+		if (selectedAnswer === produce[questionCounter].answer) {
+			console.log("You Win!");
+			questionCounter++;
+			correct++;
+			displayHTML();
+			$("#hint-display").hide();
+		}
+
+		else {
+			console.log("You Lose!");
+			questionCounter++;
+			incorrect++;
+			displayHTML();
+			$("#hint-display").hide();
+	}
 	console.log(questionCounter);
 
-	selectedAnswer = $(this).text();
-	console.log(selectedAnswer);
-	questionCounter++;
-	displayHTML();
-		// if(selectedAnswer === produce[questionCounter].answer) {
-	// 	displayHTML();
-	// 	generateWin();
-	// }
-	// else {
-	// 	displayHTML();
-	// 	generateLoss();
-	// }
-}); // Close .answer click
-
+});
 
 // Display Hint in Hint Box
 	$("#hint").on("click", function(event){
@@ -87,46 +194,35 @@ $("body").on("click", ".answer", function(event){
 	})
 
 
-	// function generateHTML() {
-	// 	gameHTML = "<p class='text-center'>" + produce[questionCounter].name + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
-	// 	$("#question").html(gameHTML);
-	// }
-
-
 // At the end of the game, total up: correct, incorrect and give a grade
 
+	if (questionCounter === produce.length) {
+			console.log("Final");
+	}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $(document).ready(function() {
-// // Create a function that creates the start button and initial screen
-
-// function initialScreen() {
-// 	startScreen = "<p class='text-center main-button-container'><a class='btn btn-primary btn-lg btn-block start-button' href='#' role='button'>Start Quiz</a></p>";
-// 	$(".mainArea").html(startScreen);
+// function finalScreen() {
+// 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
+// 	$(".mainArea").html(gameHTML);
 // }
 
-// initialScreen();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // //Create a function, generateHTML(), that is triggered by the start button, and generates the HTML seen on the project video...
 
@@ -170,24 +266,6 @@ $("body").on("click", ".answer", function(event){
 // 	setTimeout(wait, 4000);  //  change to 4000 or other amount
 // }
 
-// function generateWin() {
-// 	correctTally++;
-// 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
-// 	$(".mainArea").html(gameHTML);
-// 	setTimeout(wait, 4000);  //  change to 4000 or other amount
-// }
-
-// function generateLoss() {
-// 	incorrectTally++;
-// 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='img/x.png'>";
-// 	$(".mainArea").html(gameHTML);
-// 	setTimeout(wait, 4000); //  change to 4000 or other amount
-// }
-
-// function generateHTML() {
-// 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
-// 	$(".mainArea").html(gameHTML);
-// }
 
 // function wait() {
 // 	if (questionCounter < 7) {
@@ -230,17 +308,6 @@ $("body").on("click", ".answer", function(event){
 // 	timerWrapper();
 // }
 
-// var startScreen;
-// var gameHTML;
-// var counter = 30;
-// var questionArray = ["What is the capital of Australia?", "What is the capital of Liberia?", "What is the capital of Taiwan?", "What is the capital of Japan?", "What is the capital of China?", "What is the capital of Turkey?", "What is the capital of Colombia?", "What is the capital of India?"];
-// var answerArray = [["Canberra", "Melbourne", "Sydney", "Darwin"], ["Arthington","Monrovia","Tuzon","Marshall"], ["Tainan City", "Taichung", "Taipei", "Hsinchu"], ["Kyoto","Hiroshima","Tokyo","Osaka"], ["Hong Kong", "Macau", "Shanghai", "Beijing"], ["Ankara","Istanbul","Antalya","Bursa"], ["Medellin", "Bogota", "Cartagena", "Cali"], ["Mumbai","Hyderabad","Bangalore","New Delhi"]];
-// var imageArray = ["<img class='center-block img-right' src='img/australia.png'>", "<img class='center-block img-right' src='img/liberia.png'>", "<img class='center-block img-right' src='img/taiwan.png'>", "<img class='center-block img-right' src='img/japan.png'>", "<img class='center-block img-right' src='img/china.png'>", "<img class='center-block img-right' src='img/turkey.png'>", "<img class='center-block img-right' src='img/colombia.png'>", "<img class='center-block img-right' src='img/india.png'>"];
-// var correctAnswers = ["A. Canberra", "B. Monrovia", "C. Taipei", "C. Tokyo", "D. Beijing", "A. Ankara", "B. Bogota", "D. New Delhi"];
-// var questionCounter = 0;
-// var selecterAnswer;
+
 // var theClock;
-// var correctTally = 0;
-// var incorrectTally = 0;
 // var unansweredTally = 0;
-// var clickSound = new Audio("sound/button-click.mp3");
