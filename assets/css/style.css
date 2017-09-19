@@ -14,10 +14,13 @@
 
 /*Main background of game*/
 #main			{	width: 70%;
-					height: 72%;
+					height: 90%;
 					background-color: blue;
+					border-style: solid;
+					border-width: 8px;
+					border-color: orange;
 					position: absolute;
-					top: 25%;
+					top: 15%;
 					left: 25%;
 					margin: -70px 0 0 -170px;
 					}
@@ -35,7 +38,7 @@
 					}
 
 /*Hint Display Box*/
-#hint-display, #question, #hint	{	background-color: #ffffff;
+#hint-display, #question, #hint, #timer	{	background-color: #ffffff;
 					width: 80%;
 					margin-left: 10%;
 					margin-right: 10%;
