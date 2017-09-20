@@ -195,13 +195,15 @@ var intervalId;
 	}
 
 	function wait() {
-	if (questionCounter < produce.length) {
 		questionCounter++;
+	if (questionCounter < produce.length) {
+		
 		displayHTML();
 		timer = 15;
+		stop();
 		run();
 	}
-	else (questionCounter === produce.length) 
+	else  
 		finalPage();
 	}
 
