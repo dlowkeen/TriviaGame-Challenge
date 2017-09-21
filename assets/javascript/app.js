@@ -138,7 +138,7 @@ var correct = 0;
 var incorrect = 0;
 var questionCounter = 0;
 var clockRunning = false;
-var timer = 10;
+var timer = 15;
 var intervalId;
 var delayButtonAlert;
 	
@@ -165,7 +165,7 @@ var delayButtonAlert;
 		}
 		if (timer === 0) {
 			timeOutLoss();
-			timer = 10;
+			timer = 15;
 		}	
 		$("#timer").html("Seconds Remaining: " + timer);
 	}
@@ -225,7 +225,7 @@ var delayButtonAlert;
 
 // At the end of the game, total up: correct, incorrect and give a grade
 	function finalPage() {
-		$("#main").html("Grade: " + Math.round(correct / (correct+incorrect) *100) + "%" + "<br>" + "Correct: " + correct + "<br>" + "Incorrect: " + incorrect + "<br>" + "<a id='finalButton' href='index.html'><button class='display' id='reset'>Play Again</button></a>");
+		$("#main").html("<div id='grade'>Grade: " + Math.round(correct / (correct+incorrect) *100) + "%</div>" + "<br>" + "Correct: " + correct + "<br>" + "Incorrect: " + incorrect + "<br>" + "<a id='finalButton' href='index.html'><button class='display' id='reset'>Play Again</button></a>");
 		stop();
 	}
         
