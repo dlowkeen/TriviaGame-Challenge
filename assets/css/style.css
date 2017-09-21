@@ -1,16 +1,18 @@
 /*Play Button*/
-#play 			{	width: 220px;
-					height: 160px;
-					background-color: #4aaaa5;
+#play 			{	width: 320px;
+					height: 110px;
+					background-color: #ffffff;
 					opacity: 0.75;
 					text-align: center;
 					font-size: 44px;
 					padding: 20px;
 					position: absolute;
-					top: 50%;
+					top: 70%;
 					left: 50%;
 					margin: -70px 0 0 -170px;
 					}
+
+h1 				{ 	font-color: #00F1FF; }
 
 /*Main background of game*/
 #main			{	width: 70%;
@@ -26,6 +28,12 @@
 					}
 
 #question 		{	font-size: 36px;}
+
+
+/*background of application*/
+body 			{	background-image: url("../images/aldi-store.jpg");
+					background-size: 1380px 800px;
+					background-repeat: no-repeat;}
 
 /*Display boxes*/
 .display		{	width: 100%;
@@ -55,5 +63,15 @@ button 			{	height: 30px;
 					width: 50px;
 					font-size: 18px;}
 
-button:hover 	{	border-width: 4px;
+button:hover 	{	border-width: 5px;
 					border-color: orange;}
+
+/*Reset Button*/
+a 				{	height: 100px;
+					width: 160px; }
+
+#finalButton 	{	height: 60px;
+					width: 100px;
+					font-size: 22px;}
+
+#reset 			{ 	width: 50%; }
