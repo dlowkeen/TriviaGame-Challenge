@@ -72,9 +72,6 @@ button:hover 	{	border-width: 5px;
 a 				{	height: 100px;
 					width: 160px; }
 
-#finalButton 	{	height: 60px;
-					width: 100px;
-					font-size: 22px;}
 
 #reset 			{ 	width: 50%; }
 
