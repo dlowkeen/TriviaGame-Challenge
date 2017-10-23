@@ -449,7 +449,7 @@ var produce = [{
     },
     {
         name: "Mini Bananas",
-        image: "<img src='assets/images/mini-bananas-jpg'>",
+        image: "<img src='assets/images/mini-bananas.jpg'>",
         answerOptions: ["183", "71", "138", "91"],
         hint: "",
         answer: "138"
