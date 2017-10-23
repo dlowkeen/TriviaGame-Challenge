@@ -148,345 +148,345 @@ var produce = [{
     },
     {
         name: "Cauliflower",
-        image: "<img src=''>",
+        image: "<img src='assets/images/cauliflower.jpg'>",
         answerOptions: ["58", "85", "134", "11"],
         hint: "",
         answer: "58"
     },
     {
         name: "Cabbage",
-        image: "<img src=''>",
+        image: "<img src='assets/images/cabbage.jpg'>",
         answerOptions: ["14", "59", "13", "58"],
         hint: "",
         answer: "59"
     },
     {
         name: "Orange Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/orange-peppers.jpg'>",
         answerOptions: ["142", "138", "124", "101"],
         hint: "",
         answer: "124"
     },
     {
         name: "Garlic",
-        image: "<img src=''>",
+        image: "<img src='assets/images/garlic.jpg'>",
         answerOptions: ["143", "188", "134", "118"],
         hint: "Freeway to Simi Valley",
         answer: "118"
     },
     {
         name: "Medley Potatoes",
-        image: "<img src=''>",
+        image: "<img src='assets/images/medley-potatoes.jpg'>",
         answerOptions: ["65", "69", "45", "101"],
         hint: "Retire at this age",
         answer: "65"
     },
     {
         name: "Red Cherries LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/red-cherries.jpg'>",
         answerOptions: ["192", "17", "134", "191"],
         hint: "",
         answer: "192"
     },
     {
         name: "Lemons",
-        image: "<img src=''>",
+        image: "<img src='assets/images/lemons.jpg'>",
         answerOptions: ["6", "12", "199", "200"],
         hint: "",
         answer: "200"
     },
     {
         name: "Red Delicious Apples Bagged",
-        image: "<img src=''>",
+        image: "<img src='assets/images/red-delicious-apples-bagged.jpg'>",
         answerOptions: ["148", "184", "34", "191"],
         hint: "",
         answer: "184"
     },
     {
         name: "Red Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/red-peppers.jpg'>",
         answerOptions: ["53", "35", "55", "33"],
         hint: "",
         answer: "53"
     },
     {
         name: "Ataulfo Mangoes",
-        image: "<img src=''>",
+        image: "<img src='assets/images/ataulfo-mangoes.jpg'>",
         answerOptions: ["4", "98", "45", "10"],
         hint: "",
         answer: "45"
     },
     {
         name: "Green Onions",
-        image: "<img src=''>",
+        image: "<img src='assets/images/green-onions.jpg'>",
         answerOptions: ["138", "38", "14", "19"],
         hint: "",
         answer: "38"
     },
     {
         name: "Red Grapes LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/red-grapes.jpg'>",
         answerOptions: ["40", "87", "30", "61"],
         hint: "Must look this old to not card",
         answer: "40"
     },
     {
         name: "Yellow Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/yellow-peppers.jpg'>",
         answerOptions: ["55", "72", "91", "101"],
         hint: "Costa Mesa Frwy",
         answer: "55"
     },
     {
         name: "Seedless Watermelon",
-        image: "<img src=''>",
+        image: "<img src='assets/images/seeded-watermelon.jpg'>",
         answerOptions: ["77", "138", "70", "9"],
         hint: "",
         answer: "70"
     },
     {
         name: "Broccoli Crowns",
-        image: "<img src=''>",
+        image: "<img src='assets/images/broccoli-crowns.jpg'>",
         answerOptions: ["86", "85", "77", "1"],
         hint: "Palmdale is store #__",
         answer: "85"
     },
     {
         name: "Baby Seedless Watermelon",
-        image: "<img src=''>",
+        image: "<img src='assets/images/baby-seedless-watermelon.jpg'>",
         answerOptions: ["73", "71", "89", "1"],
         hint: "",
         answer: "71"
     },
     {
         name: "Golden Honeydew",
-        image: "<img src=''>",
+        image: "<img src='assets/images/golden-honeydew.jpg'>",
         answerOptions: ["89", "135", "153", "51"],
         hint: "",
         answer: "135"
     },
     {
         name: "Sweet Potatoes",
-        image: "<img src=''>",
+        image: "<img src='assets/images/sweet-potato.jpg'>",
         answerOptions: ["3", "61", "69", "71"],
         hint: "",
         answer: "61"
     },
     {
         name: "Jicama LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/jicama.jpg'>",
         answerOptions: ["173", "11", "132", "31"],
         hint: "",
         answer: "132"
     },
     {
         name: "Fuji Apple LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/fuji-apple.jpg'>",
         answerOptions: ["87", "91", "80", "81"],
         hint: "",
         answer: "80"
     },
     {
         name: "Gala Apple LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/gala-apple.jpg'>",
         answerOptions: ["73", "83", "81", "80"],
         hint: "Kobe's points record",
         answer: "81"
     },
     {
         name: "Sweet Corn",
-        image: "<img src=''>",
+        image: "<img src='assets/images/sweet-corn.jpg'>",
         answerOptions: ["72", "21", "29", "1"],
         hint: "",
         answer: "29"
     },
     {
         name: "Seeded Watermelon",
-        image: "<img src=''>",
+        image: "<img src='assets/images/seeded-watermelon.jpg'>",
         answerOptions: ["162", "71", "189", "1"],
         hint: "",
         answer: "162"
     },
     {
         name: "Valencia Oranges",
-        image: "<img src=''>",
+        image: "<img src='assets/images/valencia-oranges.jpg'>",
         answerOptions: ["23", "173", "122", "1"],
         hint: "",
         answer: "122"
     },
     {
         name: "Rainier Cherries LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/rainier-cherries.jpg'>",
         answerOptions: ["196", "71", "189", "91"],
         hint: "",
         answer: "196"
     },
     {
         name: "Pumpkins",
-        image: "<img src=''>",
+        image: "<img src='assets/images/pumpkin.jpg'>",
         answerOptions: ["92", "71", "95", "91"],
         hint: "",
         answer: "92"
     },
     {
         name: "Plantains LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/plantain.jpg'>",
         answerOptions: ["165", "71", "169", "91"],
         hint: "",
         answer: "165"
     },
     {
         name: "Peaches LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/peaches.jpg'>",
         answerOptions: ["195", "67", "189", "193"],
         hint: "",
         answer: "193"
     },
     {
         name: "Org Yellow Onions",
-        image: "<img src=''>",
+        image: "<img src='assets/images/org-yellow-onions.jpg'>",
         answerOptions: ["196", "141", "19", "91"],
         hint: "",
         answer: "141"
     },
     {
         name: "Cilantro",
-        image: "<img src=''>",
+        image: "<img src='assets/images/cilantro.jpg'>",
         answerOptions: ["5", "4", "10", "91"],
         hint: "Fingers on one hand",
         answer: "5"
     },
     {
         name: "Honeydew",
-        image: "<img src=''>",
+        image: "<img src='assets/images/honeydew.jpg'>",
         answerOptions: ["133", "187", "14", "91"],
         hint: "",
         answer: "133"
     },
     {
         name: "Bagged Avocados",
-        image: "<img src=''>",
+        image: "<img src='assets/images/bagged-avocados.jpg'>",
         answerOptions: ["11", "1", "12", "91"],
         hint: "Seven ___",
         answer: "11"
     },
     {
         name: "Mini Sweet Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/mini-sweet-peppers.jpg'>",
         answerOptions: ["51", "71", "19", "91"],
         hint: "",
         answer: "51"
     },
     {
         name: "Poblano Peppers LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/poblano-pepper.jpg'>",
         answerOptions: ["153", "52", "18", "91"],
         hint: "",
         answer: "52"
     },
     {
         name: "Jalapeno Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/jalapeno-pepper.jpg'>",
         answerOptions: ["50", "71", "16", "51"],
         hint: "Half of 100",
         answer: "50"
     },
     {
         name: "Serrano Peppers",
-        image: "<img src=''>",
+        image: "<img src='assets/images/serrano-pepper.jpg'>",
         answerOptions: ["149", "71", "199", "54"],
         hint: "",
         answer: "54"
     },
     {
         name: "Pink Lady Apples LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/pink-lady-apple.jpg'>",
         answerOptions: ["129", "131", "139", "91"],
         hint: "",
         answer: "131"
     },
     {
         name: "Blackberries",
-        image: "<img src=''>",
+        image: "<img src='assets/images/blackberries.jpg'>",
         answerOptions: ["16", "161", "199", "91"],
         hint: "",
         answer: "161"
     },
     {
         name: "Ginger LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/ginger.jpg'>",
         answerOptions: ["205", "71", "200", "91"],
         hint: "",
         answer: "205"
     },
     {
         name: "Chayote Squash",
-        image: "<img src=''>",
+        image: "<img src='assets/images/chayote-squash.jpg'>",
         answerOptions: ["25", "141", "20", "91"],
         hint: "",
         answer: "141"
     },
     {
         name: "Butternut Squash",
-        image: "<img src=''>",
+        image: "<img src='assets/images/butternut-squash.jpg'>",
         answerOptions: ["51", "71", "15", "91"],
         hint: "",
         answer: "15"
     },
     {
         name: "Spaghetti Squash",
-        image: "<img src=''>",
+        image: "<img src='assets/images/spaghetti-squash.jpg'>",
         answerOptions: ["16", "71", "18", "17"],
         hint: "",
         answer: "16"
     },
     {
         name: "Nectarines",
-        image: "<img src=''>",
+        image: "<img src='assets/images/nectarine.jpg'>",
         answerOptions: ["295", "71", "194", "91"],
         hint: "",
         answer: "194"
     },
     {
         name: "Mini Bananas",
-        image: "<img src=''>",
+        image: "<img src='assets/images/mini-bananas-jpg'>",
         answerOptions: ["183", "71", "138", "91"],
         hint: "",
         answer: "138"
     },
     {
         name: "Mexican Green Onion",
-        image: "<img src=''>",
+        image: "<img src='assets/images/mexican-green-onions.jpg'>",
         answerOptions: ["164", "71", "24", "91"],
         hint: "",
         answer: "164"
     },
     {
         name: "Green Grapes LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/green-grapes.jpg'>",
         answerOptions: ["14", "71", "24", "41"],
         hint: "Dirk Nowitzki",
         answer: "41"
     },
     {
         name: "Gourmet Medley Tomatoes",
-        image: "<img src=''>",
+        image: "<img src='assets/images/gourmet-medley-tomatoes.jpg'>",
         answerOptions: ["164", "75", "54", "91"],
         hint: "3 Quarters",
         answer: "75"
     },
     {
         name: "Comice Pears LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/comice-pears.jpg'>",
         answerOptions: ["154", "71", "144", "91"],
         hint: "12x12",
         answer: "144"
     },
     {
         name: "Black Grapes LRW",
-        image: "<img src=''>",
+        image: "<img src='assets/images/black-grapes.jpg'>",
         answerOptions: ["16", "42", "24", "98"],
-        hint: "",
+        hint: "BLUE __",
         answer: "42"
     },
     {
@@ -561,7 +561,7 @@ function win() {
     showAnswerCorrect.show();
     delayButtonAlert = setTimeout(function() {
         showAnswerCorrect.hide();
-    }, 1500);
+    }, 2000);
     $("#hint-display").hide();
 }
 
@@ -573,7 +573,7 @@ function lose() {
     showAnswerIncorrect.show();
     delayButtonAlert = setTimeout(function() {
         showAnswerIncorrect.hide();
-    }, 1500);
+    }, 2500);
     $("#hint-display").hide();
 }
 
